@@ -4,16 +4,16 @@ This repository contains the official implementations of [PASE](https://arxiv.or
 
 ![pase+](https://user-images.githubusercontent.com/7583502/72657492-42b88f00-39a5-11ea-9ae6-cf96a1e09042.png)
 
-## Requirements
+## Requirements (This is the 1/2 required steps for s3prl to work)
 
 * PyTorch 1.0 or higher
 * Torchvision 0.2 or higher
 * To use data augmentation during training (recommended), you must [build codec2 **from source**](https://github.com/drowe67/codec2), then `pip install pycodec2` (because `pycodec2` needs the header files).  You may also need to point `LD_LIBRARY_PATH` at `\usr\local\lib` for python to be able to load `pycodec2` successfully.
 * Install the requirements from `requirements.txt`: `pip install -r requirements.txt`
 
-*NOTE: Edit the cupy-cuda100 requirement in the file if needed depending on your CUDA version. Defaults to 10.0 now*
+*NOTE: Edit the cupy-cuda102 requirement in the file if needed depending on your CUDA version. Defaults to 10.2 now*
 
-### Install 
+### Install (This is the 2/2 required steps required for s3prl to work)
 
 This framework can be installed locally by running:
 
