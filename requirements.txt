@@ -4,11 +4,11 @@ scipy
 librosa
 SoundFile
 matplotlib
-torchvision
 scikit_learn
 cupy-cuda102
-torch>=1.7.0
-torchaudio>=0.7.0
+torch==1.7.0
+torchaudio==0.7.0
+torchvision==0.8.0
 pynvrtc==8.0
 pysptk==0.1.16
 webrtcvad==2.0.10

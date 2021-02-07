@@ -4,7 +4,7 @@ This repository contains the official implementations of [PASE](https://arxiv.or
 
 ![pase+](https://user-images.githubusercontent.com/7583502/72657492-42b88f00-39a5-11ea-9ae6-cf96a1e09042.png)
 
-## Requirements (This is the 1/2 required steps for s3prl to work)
+## Requirements
 
 * PyTorch 1.0 or higher
 * Torchvision 0.2 or higher
@@ -13,7 +13,7 @@ This repository contains the official implementations of [PASE](https://arxiv.or
 
 *NOTE: Edit the cupy-cuda102 requirement in the file if needed depending on your CUDA version. Defaults to 10.2 now*
 
-### Install (This is the 2/2 required steps required for s3prl to work)
+### Install
 
 This framework can be installed locally by running:
 
